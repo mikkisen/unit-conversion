@@ -40,11 +40,11 @@ function getInput() {
 function convertMetrics(input, metric) {
     switch (metric) {
         case 'length':
-            return `${input} meter = ${(input * meterToFeet).toFixed(3)} feet = ${(input / meterToFeet).toFixed(3)}`
+            return `${input} meters = ${(input * meterToFeet).toFixed(3)} feet | ${input} feet = ${(input / meterToFeet).toFixed(3)} meters`
         case 'volume':
-            return `${input} liters = ${(input * literToGallon).toFixed(3)} | ${input} feet = ${(input / literToGallon).toFixed(3)}`
+            return `${input} liters = ${(input * literToGallon).toFixed(3)} gallons | ${input} gallons = ${(input / literToGallon).toFixed(3)} liters`
         case 'mass':
-            return `${input} meter = ${(input * kilogramToPound).toFixed(3)} | ${input} feet = ${(input / kilogramToPound).toFixed(3)}`
+            return `${input} kilos = ${(input * kilogramToPound).toFixed(3)} pounds | ${input} pounds = ${(input / kilogramToPound).toFixed(3)} kilos`
             defult:
             throw new Error("Invalid target metric")
     }
