@@ -1,0 +1,40 @@
+:root {
+    --background-color: #f4f4f4;
+    --box-color: #ffffff;
+    --text-color: #353535;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100vw;
+}
+
+body.dark-mode {
+    --background-color: #1f2937;
+    --box-color: #273549;
+    --text-color: #ffffff;
+}
+
+header {
+    background-color: #6943ff;
+    height: 35%;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: var(--background-color);
+    flex-direction: column;
+}
+
+main.box {
+    background-color: var(--box-color);
+    color: var(--text-color)
+}
+
+main.box h1 {
+    color: #6943ff;
+}
