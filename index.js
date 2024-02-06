@@ -10,18 +10,22 @@ const lengthField = document.getElementById("length-field")
 const volumeField = document.getElementById("volume-field")
 const massField = document.getElementById("mass-field")
 
+let lengthResult = document.getElementById("length-result")
+let volumeResult = document.getElementById("volume-result")
+let massResult = document.getElementById("mass-result")
+
 const meterToFeet = 3.281
 const literToGallon = 0.264
 const kilogramToPound = 2.204
 
 inputbtn.addEventListener("keypress", function (e) {
     if (e.key === 'Enter') {
-        getInput()
+        render()
     }
 })
 
 convertBtn.addEventListener("click", function () {
-    getInput()
+    render()
 })
 
 function getInput() {
@@ -43,5 +47,7 @@ function convertMetrics(input, metric) {
 }
 
 function render() {
-
+    lengthResult.textContent = convertMetrics(getInput(), "length")
+    volumeResult.textContent = convertMetrics(getInput(), "volume")
+    massResult.textContent = convertMetrics(getInput(), "mass")
 }
