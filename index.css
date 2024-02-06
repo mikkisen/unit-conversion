@@ -25,11 +25,11 @@ body.dark-mode {
 
 nav {
     height: 4vh;
+    padding: 5px;
     display: flex;
     align-items: left;
     justify-content: left;
     box-sizing: border-box;
-    padding: 2px;
     background-color: #6943ff;
 }
 
