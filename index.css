@@ -22,11 +22,12 @@ body.dark-mode {
 header {
     background-color: #6943ff;
     box-sizing: border-box;
+    height: 40vh;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    gap: 40px;
 }
 
 header h1 {
@@ -50,6 +51,8 @@ header #input-btn {
 }
 
 header .convertion-container {
+    display: flex;
+    flex-flow: column;
     gap: 40px;
 }
 
