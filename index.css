@@ -78,12 +78,15 @@ main {
     height: 60vh;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 main .box {
     background-color: var(--box-color);
-    color: var(--text-color)
+    color: var(--text-color);
+    display: flex;
+    flex-flow: column;
+
 }
 
 main h1 {
