@@ -20,13 +20,11 @@ body.dark-mode {
 
 header {
     background-color: #6943ff;
-    height: 30vw;
     box-sizing: border-box;
 }
 
 main {
     display: flex;
-    flex: 1;
     background-color: var(--background-color);
     flex-direction: column;
 }
