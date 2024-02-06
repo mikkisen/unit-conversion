@@ -27,6 +27,11 @@ header {
     gap: 40px;
 }
 
+header h1 {
+    color: white;
+    font-weight: bold;
+}
+
 header #input-btn {
     padding: 20px;
     font-size: 48px;
