@@ -53,7 +53,7 @@ header #input-btn {
 header .convertion-container {
     display: flex;
     flex-flow: column;
-    gap: 40px;
+    padding: 0px 20px;
 }
 
 input:focus,
