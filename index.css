@@ -6,7 +6,8 @@
 
 body {
     margin: 0;
-    height: 100vw;
+    min-height: 95vw;
+    box-sizing: border-box;
 }
 
 body.dark-mode {
