@@ -46,6 +46,13 @@ header #input-btn {
     color: white;
 }
 
+input:focus,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+}
+
 header #convert-btn {
     color: #353535;
     border-radius: 4px;
