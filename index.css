@@ -35,11 +35,11 @@ main {
     justify-content: center;
 }
 
-main.box {
+main .box {
     background-color: var(--box-color);
     color: var(--text-color)
 }
 
-main.box h1 {
+main h1 {
     color: #6943ff;
 }
