@@ -27,14 +27,12 @@ header {
     align-items: center;
     justify-content: center;
     height: 40vh;
-    gap: 40px;
 }
 
 header h1 {
     color: white;
     font-weight: bold;
     font-size: 48px;
-    gap: 20px;
 }
 
 header #input-btn {
@@ -49,6 +47,10 @@ header #input-btn {
     text-align: center;
     font-weight: bold;
     color: white;
+}
+
+header .convertion-container {
+    gap: 40px;
 }
 
 input:focus,
