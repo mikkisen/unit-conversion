@@ -4,6 +4,7 @@
 1 kilogram = 2.204 pound
 */
 
+const modeBtn = document.getElementById("mode-btn")
 const inputbtn = document.getElementById("input-btn")
 const convertBtn = document.getElementById("convert-btn")
 const lengthField = document.getElementById("length-field")

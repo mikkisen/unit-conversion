@@ -23,10 +23,24 @@ body.dark-mode {
     --text-color: #ffffff;
 }
 
+nav {
+    height: 5vh;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+nav img {
+    height: 100%;
+    width: 100%;
+}
+
 header {
     background-color: #6943ff;
     box-sizing: border-box;
-    height: 40vh;
+    height: 35vh;
     display: flex;
     flex-flow: column;
     align-items: center;
