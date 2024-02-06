@@ -54,6 +54,7 @@ header h1 {
     font-size: 48px;
     text-align: center;
     padding: 5px;
+    margin: 0;
 }
 
 header #input-btn {
