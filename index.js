@@ -26,7 +26,7 @@ convertBtn.addEventListener("click", function () {
 
 function getInput() {
     let input = Number(inputbtn.value)
-    console.log(input)
+    return input
 }
 
 function convertMetrics(input, metric) {

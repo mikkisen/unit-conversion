@@ -23,13 +23,13 @@ header {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 40vh;
 }
 
 main {
     background-color: var(--background-color);
     display: flex;
-    flex: 1;
+    height: 60vh;
     flex-flow: column;
     align-items: center;
     justify-content: center;
