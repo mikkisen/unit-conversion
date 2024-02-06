@@ -98,7 +98,14 @@ main .box {
     border-radius: 4px;
     box-sizing: border-box;
     text-align: center;
+}
 
+main .box h1 {
+    font-size: 32px;
+}
+
+main .box p {
+    font-size: 24px;
 }
 
 main h1 {
@@ -112,7 +119,14 @@ main h1 {
 
     main .box {
         width: 100%;
+    }
+
+    main .box h1 {
         font-size: 24px;
+    }
+
+    main .box p {
+        font-size: 16px;
     }
 
     header #input-btn {
