@@ -16,12 +16,12 @@ const kilogramToPound = 2.204
 
 inputbtn.addEventListener("keypress", function (e) {
     if (e.key === 'Enter') {
-        render(getInput)
+        getInput()
     }
 })
 
 convertBtn.addEventListener("click", function () {
-    render(getInput)
+    getInput()
 })
 
 function getInput() {
