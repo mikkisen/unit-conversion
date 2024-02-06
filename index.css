@@ -106,7 +106,11 @@ main h1 {
 
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 0;
+        font-size: 32px;
+    }
+
+    main .box {
+        width: 100%;
     }
 
 }
