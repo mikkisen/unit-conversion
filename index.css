@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-flow: column;
     height: 100vw;
+    box-sizing: border-box;
 }
 
 body.dark-mode {
@@ -19,7 +20,7 @@ body.dark-mode {
 
 header {
     background-color: #6943ff;
-    height: 20vw;
+    height: 30vw;
     box-sizing: border-box;
 }
 
