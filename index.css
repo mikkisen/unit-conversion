@@ -24,7 +24,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 40vh;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 header #input-btn {
@@ -33,6 +33,9 @@ header #input-btn {
     background-color: inherit;
     border: 2px solid #b295ff;
     border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100px;
 }
 
 header #convert-btn {
