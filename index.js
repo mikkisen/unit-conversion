@@ -19,7 +19,7 @@ const literToGallon = 0.264
 const kilogramToPound = 2.204
 
 inputbtn.addEventListener("keypress", function (e) {
-    if (inputbtn.value !== null) {
+    if (inputbtn.value) {
         if (e.key === 'Enter') {
             render()
         }
@@ -27,7 +27,7 @@ inputbtn.addEventListener("keypress", function (e) {
 })
 
 convertBtn.addEventListener("click", function () {
-    if (inputbtn.value !== null) {
+    if (inputbtn.value) {
         render()
     }
 })
