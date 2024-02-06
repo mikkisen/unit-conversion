@@ -79,6 +79,8 @@ main {
     flex-flow: column;
     align-items: center;
     justify-content: flex-start;
+    padding: 10px 20px;
+    gap: 20px;
 }
 
 main .box {
@@ -86,6 +88,10 @@ main .box {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
 
 }
 
