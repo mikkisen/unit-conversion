@@ -5,6 +5,8 @@
 */
 
 const modeBtn = document.getElementById("mode-btn")
+let toggled = false
+
 const inputbtn = document.getElementById("input-btn")
 const convertBtn = document.getElementById("convert-btn")
 const lengthField = document.getElementById("length-field")
@@ -18,6 +20,10 @@ let massResult = document.getElementById("mass-result")
 const meterToFeet = 3.281
 const literToGallon = 0.264
 const kilogramToPound = 2.204
+
+modeBtn.addEventListener("click", function () {
+    document.body.classList.toggle('dark-mode');
+})
 
 inputbtn.addEventListener("keypress", function (e) {
     if (inputbtn.value) {
