@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    min-height: 95vw;
+    min-height: 100vh;
     box-sizing: border-box;
 }
 
@@ -19,12 +19,20 @@ body.dark-mode {
 header {
     background-color: #6943ff;
     box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
 }
 
 main {
-    display: flex;
     background-color: var(--background-color);
-    flex-direction: column;
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main.box {
