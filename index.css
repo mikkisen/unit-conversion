@@ -24,7 +24,7 @@ body.dark-mode {
 }
 
 nav {
-    height: 5vh;
+    height: 3vh;
     display: flex;
     align-items: right;
     justify-content: right;
@@ -40,12 +40,12 @@ nav img {
 header {
     background-color: #6943ff;
     box-sizing: border-box;
-    height: 35vh;
+    height: 37vh;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 }
 
 header h1 {
