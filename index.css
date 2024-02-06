@@ -29,14 +29,16 @@ header {
 
 header #input-btn {
     padding: 20px;
-    font-size: 32px;
+    font-size: 48px;
     background-color: inherit;
     border: 2px solid #b295ff;
     border-radius: 4px;
     box-sizing: border-box;
     overflow: hidden;
-    width: 250px;
+    width: 150px;
     text-align: center;
+    font-weight: bold;
+    color: white;
 }
 
 header #convert-btn {
@@ -45,7 +47,7 @@ header #convert-btn {
     border: none;
     font-size: 24px;
     padding: 10px 20px;
-    width: 250px;
+    width: 150px;
 }
 
 main {
