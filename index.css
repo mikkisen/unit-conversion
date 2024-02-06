@@ -93,7 +93,7 @@ main .box {
     color: var(--text-color);
     display: flex;
     flex-flow: column;
-    width: 50%;
+    width: 40%;
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -101,11 +101,11 @@ main .box {
 }
 
 main .box h1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 main .box p {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 main h1 {
